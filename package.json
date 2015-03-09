@@ -1,0 +1,26 @@
+{
+  "name": "firebug.sdk",
+  "version": "0.5.0",
+  "description": "SDK for Developer Tools extensions in Firefox",
+  "directories": {
+    "example": "examples",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firebug/firebug.sdk.git"
+  },
+  "keywords": [
+    "Firebug",
+    "SDK"
+  ],
+  "author": "Jan Odvarko <odvarko@gmail.com> (http://www.softwareishard.com/)",
+  "license": "New BSD License",
+  "bugs": {
+    "url": "https://github.com/firebug/firebug.sdk/issues"
+  },
+  "homepage": "https://github.com/firebug/firebug.sdk"
+}
