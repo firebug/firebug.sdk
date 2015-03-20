@@ -1,0 +1,22 @@
+/* See license.txt for terms of usage */
+
+@import "dom.css";
+@import "console.css";
+@import "panel.css";
+@import "panelbase.css";
+
+/* All necessary styles related to DomTree should be here */
+
+.domTable {
+  font-size: 11px;
+  font-family: Lucida Grande, Tahoma, sans-serif;
+  line-height: 15px;
+}
+
+.domTable > tbody > tr > td {
+  border-bottom: 1px solid #EFEFEF;
+}
+
+.hidden {
+  display: none;
+}

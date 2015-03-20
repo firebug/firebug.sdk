@@ -1,0 +1,21 @@
+/* See license.txt for terms of usage */
+
+/******************************************************************************/
+/* Basic Panel Styles */
+
+.theme-firebug html {
+  background-color: white;
+}
+
+/* Do not use 'collapsed' as a class name. It's too simple name that can
+cause collisions with built-in styles (e.g. the MarkupView is using it). */
+.theme-firebug [fb-collapsed="true"] {
+  display: none;
+}
+
+/******************************************************************************/
+/* Search */
+
+.theme-firebug .jumpHighlight {
+  background-color: #C4F4FF !important;
+}
