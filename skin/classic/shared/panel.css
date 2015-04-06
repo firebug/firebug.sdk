@@ -19,7 +19,7 @@
 .breakpointHeader > .twisty,
 .computedStyle.hasSelectors > .stylePropName,
 .cookieRow > .cookieNameCol > .cookieNameLabel {
-  background-image: url(chrome://firebug-os/skin/twistyClosed.svg);
+  background-image: url(chrome://firebug.sdk/skin/twistyClosed.svg);
   background-repeat: no-repeat;
   background-position: 2px calc(0.5em - 3px);
   min-height: 12px;
@@ -43,7 +43,7 @@
 .breakpointBlock.opened > .breakpointHeader > .twisty,
 .computedStyle.hasSelectors.opened > .stylePropName,
 .cookieRow.opened > .cookieNameCol > .cookieNameLabel {
-  background-image: url(chrome://firebug-os/skin/twistyOpen.svg);
+  background-image: url(chrome://firebug.sdk/skin/twistyOpen.svg);
   background-repeat: no-repeat;
   min-height: 12px;
 }
@@ -62,13 +62,13 @@
   display: inline-block;
   width: 16px;
   height: 16px;
-  background: url(chrome://firebug/skin/win/close.svg) no-repeat 0 0;
+  background: url(chrome://firebug.sdk/skin/close.svg) no-repeat 0 0;
 }
 
 .closeButton:hover {
-  filter: url(resource://firebugui/filters.svg#darken);
+  filter: url(chrome://firebug.sdk/filters.svg#darken);
 }
 
 .closeButton:active {
-  filter: url(resource://firebugui/filters.svg#deepDarken);
+  filter: url(chrome://firebug.sdk/filters.svg#deepDarken);
 }
