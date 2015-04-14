@@ -999,3 +999,37 @@ of an error log is affected (higher than other logs). */
 .descriptionBox B {
   font-weight: bold;
 }
+
+/******************************************************************************/
+/* Light Theme */
+
+.theme-light .domLabel {
+  color: var(--theme-highlight-bluegrey);
+}
+
+.theme-light .objectBox-number {
+  color: var(--theme-highlight-green);
+}
+
+.theme-light .objectBox-string {
+  color: var(--theme-highlight-orange)
+}
+
+.theme-light .objectBox-null,
+.theme-light .objectBox-undefined {
+  font-style: normal;
+  color: var(--theme-comment);
+}
+
+.theme-light .objectBox-object {
+  font-family: Lucida Grande, sans-serif;
+  font-weight: normal;
+  color: var(--theme-highlight-bluegrey);
+  white-space: pre-wrap;
+}
+
+.theme-light .caption {
+  font-family: Lucida Grande, Tahoma, sans-serif;
+  font-weight: normal;
+  color: var(--theme-highlight-bluegrey);
+}
