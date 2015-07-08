@@ -39,7 +39,7 @@
 }
 
 .memberValueIcon.readOnly {
-  background: url("chrome://firebug/skin/readOnlyProp.svg") no-repeat;
+  background: url("readOnlyProp.svg") no-repeat;
   background-position: 4px 4px;
   background-size: 10px 10px;
 }
@@ -99,7 +99,7 @@
 }
 
 .memberRow[breakpoint="true"] .memberRowHeader {
-  background-image: url(chrome://firebug/skin/breakpoint.svg);
+  background-image: url(breakpoint.svg);
 }
 
 .memberRow[breakpoint="true"][disabledBreakpoint="true"] .memberRowHeader {
@@ -113,7 +113,7 @@
   left: 5px;
   width: 12px;
   height: 12px;
-  background: url(chrome://firebug/skin/breakpoint.svg) no-repeat;
+  background: url(breakpoint.svg) no-repeat;
   opacity: 0.5;
 }
 
@@ -143,7 +143,7 @@
 /* Spinner (used for async fetch) */
 
 .memberRow.hasChildren.spinning > .memberLabelCell > .memberLabel {
-  background-image: url(chrome://firebug/skin/spinner.png) !important;
+  background-image: url(spinner.png) !important;
   background-repeat: no-repeat;
   background-position: 3px 3px;
 }
