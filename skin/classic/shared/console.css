@@ -785,7 +785,8 @@ of an error log is affected (higher than other logs). */
   padding-left: 18px;
 }
 
-.objectBox-array > .objectTitle {
+.objectBox-array > .objectTitle,
+.objectBox-array > .objectLink > .objectTitle {
   font-weight: bold;
   color: DarkGreen;
 }
