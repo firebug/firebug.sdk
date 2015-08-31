@@ -1074,11 +1074,15 @@ of an error log is affected (higher than other logs). */
   font-weight: normal;
 }
 
+.theme-light .selectorClass,
+.theme-light .selectorValue,
+.theme-light .selectorTag,
+.theme-light .selectorId,
 .theme-dark .selectorClass,
 .theme-dark .selectorValue,
 .theme-dark .selectorTag,
 .theme-dark .selectorId {
-  color: var(--theme-highlight-blue);
+  color: var(--theme-highlight-lightorange);
 }
 
 .theme-dark .objectPropValue {
