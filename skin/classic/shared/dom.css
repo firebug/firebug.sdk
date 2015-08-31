@@ -184,3 +184,21 @@
   color: SlateBlue;
   font-weight: bold;
 }
+
+/******************************************************************************/
+/* Light & Dark Themes */
+
+.theme-light .memberRow:hover,
+.theme-dark .memberRow:hover {
+  background-color: var(--theme-selection-background);
+}
+
+.theme-light .memberLabel,
+.theme-dark .memberLabel {
+  color: var(--theme-highlight-pink);
+}
+
+.theme-light .memberRow.hasChildren > .memberLabelCell > .memberLabel:hover,
+.theme-dark .memberRow.cropped > .memberLabelCell > .memberLabel:hover {
+  color: var(--theme-highlight-pink);
+}

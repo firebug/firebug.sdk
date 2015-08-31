@@ -1002,26 +1002,44 @@ of an error log is affected (higher than other logs). */
 }
 
 /******************************************************************************/
-/* Light Theme */
+/* Light Theme & Dark Theme */
 
+body.theme-light,
+body.theme-dark {
+  background-color: var(--theme-body-background);
+  color: var(--theme-body-color);
+}
+
+.theme-dark .domLabel,
 .theme-light .domLabel {
   color: var(--theme-highlight-bluegrey);
 }
 
-.theme-light .objectBox-number {
+.theme-dark .objectBox-number,
+.theme-light .objectBox-number,
+.theme-dark .objectLink-styleRule,
+.theme-light .objectLink-styleRule,
+.theme-dark .objectLink-element,
+.theme-light .objectLink-element,
+.theme-dark .objectLink-textNode,
+.theme-light .objectLink-textNode {
   color: var(--theme-highlight-green);
 }
 
+.theme-dark .objectBox-string,
 .theme-light .objectBox-string {
   color: var(--theme-highlight-orange)
 }
 
+.theme-dark .objectBox-null,
+.theme-dark .objectBox-undefined,
 .theme-light .objectBox-null,
 .theme-light .objectBox-undefined {
   font-style: normal;
   color: var(--theme-comment);
 }
 
+.theme-dark .objectBox-object,
 .theme-light .objectBox-object {
   font-family: Lucida Grande, sans-serif;
   font-weight: normal;
@@ -1029,8 +1047,58 @@ of an error log is affected (higher than other logs). */
   white-space: pre-wrap;
 }
 
+.theme-dark .caption,
 .theme-light .caption {
   font-family: Lucida Grande, Tahoma, sans-serif;
   font-weight: normal;
   color: var(--theme-highlight-bluegrey);
+}
+
+.theme-light .objectBox-object,
+.theme-dark .objectBox-object,
+.theme-light .objectLink-function,
+.theme-dark .objectLink-function,
+.theme-light .objectBox-stackTrace,
+.theme-dark .objectBox-stackTrace,
+.theme-light .objectLink-profile,
+.theme-dark .objectLink-profile,
+.theme-light .objectLink-event,
+.theme-dark .objectLink-event,
+.theme-light .objectLink-eventLog,
+.theme-dark .objectLink-eventLog,
+.theme-light .objectLink-regexp,
+.theme-dark .objectLink-regexp,
+.theme-light .objectLink-object,
+.theme-dark .objectLink-object,
+.theme-light .objectBox-array > .objectTitle,
+.theme-dark .objectBox-array > .objectTitle,
+.theme-light .objectLink-NamedNodeMap > .objectTitle,
+.theme-dark .objectLink-NamedNodeMap > .objectTitle,
+.theme-light .objectBox-array > .objectLink > .objectTitle,
+.theme-dark .objectBox-array > .objectLink > .objectTitle {
+  color: var(--theme-body-color);
+  font-weight: normal;
+}
+
+.theme-dark .selectorClass,
+.theme-dark .selectorValue,
+.theme-dark .selectorTag,
+.theme-dark .selectorId {
+  color: var(--theme-highlight-blue);
+}
+
+.theme-dark .objectPropValue {
+  color: var(--theme-highlight-lightorange);
+}
+
+.theme-dark .objectLink-object .nodeName,
+.theme-dark .objectLink-NamedNodeMap .nodeName,
+.theme-dark .objectLink-NamedNodeMap .objectEqual,
+.theme-dark .objectLink-NamedNodeMap .arrayLeftBracket,
+.theme-dark .objectLink-NamedNodeMap .arrayRightBracket,
+.theme-dark .objectBox-array .arrayLeftBracket,
+.theme-dark .objectBox-array .arrayRightBracket,
+.theme-dark .objectLink-Attr .attrEqual,
+.theme-dark .objectLink-Attr .attrTitle {
+  color: var(--theme-highlight-orange);
 }
