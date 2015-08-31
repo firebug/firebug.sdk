@@ -1004,12 +1004,6 @@ of an error log is affected (higher than other logs). */
 /******************************************************************************/
 /* Light Theme & Dark Theme */
 
-body.theme-light,
-body.theme-dark {
-  background-color: var(--theme-body-background);
-  color: var(--theme-body-color);
-}
-
 .theme-dark .domLabel,
 .theme-light .domLabel {
   color: var(--theme-highlight-bluegrey);

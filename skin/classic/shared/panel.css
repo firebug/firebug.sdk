@@ -3,66 +3,43 @@
 /************************************************************************************************/
 /* Twisties */
 
-.twisty,
-.foldableGroup > .groupHeader > .twisty,
-.logRow-errorMessage .hasTwisty > .errorTitle,
-.logRow-log .objectBox-array.hasTwisty,
-.logRow-spy .spyHead .spyTitle,
-.logGroup > .logRow,
 .memberRow.hasChildren > .memberLabelCell > .memberLabel,
-.memberRow.cropped > .memberLabelCell > .memberLabel,
-.hasHeaders .netHrefLabel,
-.objectBox-stackFrame.hasTwisty,
-.objectBox-functionCall.hasTwisty,
-.netPageRow > .netCol > .netPageTitle,
-.cssComputedHeader > .twisty,
-.breakpointHeader > .twisty,
-.computedStyle.hasSelectors > .stylePropName,
-.cookieRow > .cookieNameCol > .cookieNameLabel {
-  background-image: url(./twistyClosed.svg);
+.memberRow.cropped > .memberLabelCell > .memberLabel {
+  background-image: url(twistyClosed.svg);
   background-repeat: no-repeat;
   background-position: 2px calc(0.5em - 3px);
   min-height: 12px;
 }
 
-.foldableGroup.opened > .groupHeader > .twisty,
-.logRow-errorMessage .hasTwisty.opened > .errorTitle,
-.logRow-log .objectBox-array.hasTwisty.opened,
-.logRow-spy.opened .spyHead .spyTitle,
-.logGroup.opened > .logRow,
 .memberRow.hasChildren.opened > .memberLabelCell > .memberLabel,
-.memberRow.cropped.opened > .memberLabelCell > .memberLabel,
-.nodeBox.highlightOpen > .nodeLabel > .twisty,
-.nodeBox.open > .nodeLabel > .twisty,
-.objectBox-stackFrame.hasTwisty.opened,
-.objectBox-functionCall.hasTwisty.opened,
-.computedStylesGroup.opened > .cssComputedHeader > .twisty,
-.breakpointBlock.opened > .breakpointHeader > .twisty,
-.computedStyle.hasSelectors.opened > .stylePropName,
-.cookieRow.opened > .cookieNameCol > .cookieNameLabel {
-  background-image: url(./twistyOpen.svg);
+.memberRow.cropped.opened > .memberLabelCell > .memberLabel {
+  background-image: url(twistyOpen.svg);
   background-repeat: no-repeat;
-  min-height: 12px;
-}
-
-.cookieRow > .cookieNameCol > .cookieNameLabel {
-  background-position: 2px 50%;
 }
 
 /******************************************************************************/
-/* Watch side panel */
+/* Dark & Light Themes */
 
-.closeButton {
-  display: inline-block;
-  width: 16px;
-  height: 16px;
-  background: url(./close.svg) no-repeat 0 0;
+.theme-light .memberRow.hasChildren > .memberLabelCell > .memberLabel,
+.theme-light .memberRow.cropped > .memberLabelCell > .memberLabel {
+  background-image: url(twisty-closed-light.png);
+  background-position: 5px 3px;
 }
 
-.closeButton:hover {
-  filter: url(./filters.svg#darken);
+.theme-dark .memberRow.hasChildren > .memberLabelCell > .memberLabel,
+.theme-dark .memberRow.cropped > .memberLabelCell > .memberLabel {
+  background-image: url(twisty-closed-dark.png);
+  background-position: 5px 3px;
 }
 
-.closeButton:active {
-  filter: url(./filters.svg#deepDarken);
+.theme-light .memberRow.hasChildren.opened > .memberLabelCell > .memberLabel,
+.theme-light .memberRow.cropped.opened > .memberLabelCell > .memberLabel {
+  background-image: url(twisty-open-light.png);
+  background-position: 5px 4px;
+}
+
+.theme-dark .memberRow.hasChildren.opened > .memberLabelCell > .memberLabel,
+.theme-dark .memberRow.cropped.opened > .memberLabelCell > .memberLabel {
+  background-image: url(twisty-open-dark.png);
+  background-position: 5px 4px;
 }

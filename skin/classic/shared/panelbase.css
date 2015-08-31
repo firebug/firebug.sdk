@@ -19,3 +19,12 @@ cause collisions with built-in styles (e.g. the MarkupView is using it). */
 .theme-firebug .jumpHighlight {
   background-color: #C4F4FF !important;
 }
+
+/******************************************************************************/
+/* Dark & Light Themes */
+
+body.theme-light,
+body.theme-dark {
+  background-color: var(--theme-body-background);
+  color: var(--theme-body-color);
+}
