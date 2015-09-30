@@ -60,3 +60,16 @@
 body[resizing="true"] * {
   cursor: e-resize !important;
 }
+
+/******************************************************************************/
+/* Theme Light & Dark */
+
+.theme-dark .splitterBox .splitter > .innerBox,
+.theme-light .splitterBox .splitter > .innerBox {
+  display: none;
+}
+
+.theme-light .splitterBox .splitter,
+.theme-dark .splitterBox .splitter {
+  background-color: var(--theme-toolbar-background);
+}
