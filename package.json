@@ -1,6 +1,6 @@
 {
   "name": "firebug.sdk",
-  "version": "0.6.9",
+  "version": "0.6.10",
   "description": "SDK for Developer Tools extensions in Firefox",
   "directories": {
     "example": "examples",
