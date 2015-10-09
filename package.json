@@ -1,6 +1,6 @@
 {
   "name": "firebug.sdk",
-  "version": "0.6.10",
+  "version": "0.6.11",
   "description": "SDK for Developer Tools extensions in Firefox",
   "directories": {
     "example": "examples",
@@ -18,7 +18,7 @@
     "SDK"
   ],
   "author": "Jan Odvarko <odvarko@gmail.com> (http://www.softwareishard.com/)",
-  "license": "New BSD License",
+  "license": "BSD-3-Clause",
   "bugs": {
     "url": "https://github.com/firebug/firebug.sdk/issues"
   },
