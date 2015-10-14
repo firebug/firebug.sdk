@@ -40,6 +40,7 @@
 
 .tabs .tab-panel {
   background-color: white;
+  overflow: auto;
 }
 
 .tabs .tab-panel > DIV,
