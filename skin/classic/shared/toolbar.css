@@ -11,7 +11,6 @@
   font-size: 12px;
   height: 22px;
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-  padding: 4px 0 3px 0;
 }
 
 .toolbar .btn {
@@ -68,6 +67,10 @@
   border-bottom: 1px solid var(--theme-splitter-color);
   padding: 1px;
   padding-left: 2px;
+}
+
+.theme-firebug .toolbar {
+  padding: 4px 0 3px 0;
 }
 
 .theme-dark .toolbar .btn,
